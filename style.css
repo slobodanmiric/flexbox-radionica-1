@@ -96,6 +96,35 @@ intro
     color: var(--blue);
     font-size: 3rem;
 }
+/************
+blog
+************/
+.blog {
+    padding: var(--padding);
+    background: var(--lightgray);
+}
+.blog .container {
+    display: flex;
+    justify-content: space-between;
+}
+.blog img {
+    width: 100%;
+    border-radius: 50px 50px 50px 0;
+    box-shadow: 4px 4px var(--blue);
+}
+.blog .col {
+    flex: 0 0 47%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
